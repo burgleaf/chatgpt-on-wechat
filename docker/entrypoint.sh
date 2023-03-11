@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
-
+export OPENAI_API_BASE="https://gptbot.bingame.us/v1"
 # build prefix
 CHATGPT_ON_WECHAT_PREFIX=${CHATGPT_ON_WECHAT_PREFIX:-""}
 # path to config.json
