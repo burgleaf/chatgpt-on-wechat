@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  chatgpt-py:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      OPENAI_API_BASE: "https://api.openai.com/v1"
+    volumes:
+      - .:/app
